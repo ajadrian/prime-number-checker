@@ -6,7 +6,7 @@ def prime_checker(number):
     if number == 1 or number == 2 or number == 3:
         print(f'{number}: PRIME')
         prime_nums.write(f'{number}: PRIME\n')
-    elif number % 2 == 0 or number % 3 == 0 or number % 5 == 0:
+    elif number % 2 == 0 or number % 3 == 0 or number % 5 == 0 or number % 7 == 0:
         print(f'{number}: not prime.')
         prime_nums.write(f'{number}: not prime.\n')
     else:
